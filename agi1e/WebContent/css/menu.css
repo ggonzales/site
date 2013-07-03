@@ -1,0 +1,24 @@
+ul#menu li a#aboutMenuLabel				 {width: 85px; margin: 0 14px 0 0; text-align: center;  font-size: 15px;}
+ul#menu li a#servicesMenuLabel			 {width: 95px; margin: 0 15px 0 0; text-align: center;  font-size: 15px;}
+ul#menu li a#solutionsMenuLabel			 {width: 95px; margin: 0 18px 0 0; text-align: center;  font-size: 15px;}
+ul#menu li a#technologiesMenuLabel  	 {width: 135px; margin: 0 20px 0 0; text-align: center;  font-size: 15px;}
+ul#menu li a#contactUsMenuLabel 		 {width: 110px; margin: 0; text-align: center;  font-size: 15px;}
+
+ul#menu li 								 { float: left; margin: 0; padding: 0; width: auto; }
+ul#menu li ul 	 						 { width: 270px;}
+ul#menu li ul li 						 { width: 270px;} 
+
+ul.menu 								 {list-style:none; margin:0; padding:0}
+ul.menu * 								 {margin:0; padding:0}
+ul.menu a 								 {display:block; color:#000; text-decoration:none; background: #fff; padding:2px; padding-bottom:1px;}
+ul.menu li 								 {position:relative; float:left; margin-right:2px}
+ul.menu ul 								 {position:absolute; top:26px; left:0; background:#28ade1; display:none; opacity:0; list-style:none}
+ul.menu ul li 							 {position:relative; width:248px; margin:0; padding-left: 2px; padding-left: 100px;}
+ul.menu ul li a 						 {padding: 5px 0 5px 15px; border: none; background: none; background-color: #28ade1; border-radius: 0px; color: #fff; font-size: 13px; }
+ul.menu ul li a:hover 					 {background: #0675c7; border: none; border-radius: 0px; color: #fff; margin: 0px;}
+ul.menu li a:hover 						 {background: #0675c7; border: none; border-radius: 0px; color: #fff; margin: 0px;}
+ul.menu ul ul 							 {left:270px; top:0px}
+ul.menu .menulink:hover,
+ul.menu .menuhover 						 {background: #28ade1;}
+ul.menu .sub 							 {background:#28ade1 url(../imgs/arrow.png) 260px 8px no-repeat; border: none;}
+ul.menu .topline 						 {border-style:none;}

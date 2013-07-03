@@ -1,0 +1,2826 @@
+/*-------------------------------*/
+/*     CSS for External Fonts    */
+/*-------------------------------*/
+
+@font-face {
+    font-family: 'ProximanovaBold';
+    src: url('../fonts/ProximanovaBold/proximanova-bold-webfont.eot');
+    src: url('../fonts/ProximanovaBold/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximanovaBold/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/ProximanovaBold/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/ProximanovaBold/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximanovaLight';
+    src: url('../fonts/ProximanovaLight/proximanova-light-webfont.eot');
+    src: url('../fonts/ProximanovaLight/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximanovaLight/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/ProximanovaLight/proximanova-light-webfont.ttf') format('truetype'),
+         url('../fonts/ProximanovaLight/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximanovaRegular';
+    src: url('../fonts/ProximanovaRegular/proximanova-regular-webfont.eot');
+    src: url('../fonts/ProximanovaRegular/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximanovaRegular/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/ProximanovaRegular/proximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/ProximanovaRegular/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximanovaSemiBold';
+    src: url('../fonts/ProximanovaSemiBold/proximanova-semibold-webfont.eot');
+    src: url('../fonts/ProximanovaSemiBold/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximanovaSemiBold/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/ProximanovaSemiBold/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/ProximanovaSemiBold/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+/*      CSS for the Wrappers and Backgrounds      */
+/*------------------------------------------------*/
+
+.spacer {
+	height: 1em;	
+}
+
+.globalContentWrapper {
+	width: 1024px;
+	margin: 0px;
+}
+
+div#backgroundWrappers {
+	width: 100%;
+	/*height: 1650px;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#mainWrapper {
+	margin: 0px auto;
+	position: relative;
+	/*height: 1650px;*/
+	width: 1024px;
+	z-index: 0;
+}
+
+div#wrapperHeader {
+	width: 1024px;
+	height: 450px;
+	margin: 0px;
+}
+
+div#headerBackground {
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+
+div#headerBackground div#bg1 {
+	width: 100%;
+	height: 450px;
+	background: url('../imgs/BG1.jpg');
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#headerBackground div#bg2 {
+	width: 100%;
+	height: 450px;
+	background: url('../imgs/BG2.jpg');
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#headerBackground div#bg3 {
+	width: 100%;
+	height: 450px;
+	background-color: #5089aa;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#wrapperContentSelector {
+	margin: 20px 0 0 -5px;
+	width: 1024px;
+	height: 20px;
+}
+
+div#wrapperInteractiveContent {
+	width: 1024px;
+	height: 700px;
+	margin: 0px;
+}
+
+div#wrapperBodyContent {
+	width: 1024px;
+	margin: 0px;
+}
+
+div#wrapperServices{
+	width: 1024px;
+	margin: 0px;
+}
+
+div#wrapperSolutions{
+	width: 1024px;
+	margin: 0px;
+}
+
+div#wrapperTechnologies{
+	width: 1024px;
+	margin: 0px;
+}
+
+div#wrapperWorksContent {
+	width: 1024px;
+	height: 650px;
+	margin: 70px 0 0 0;
+}
+
+div#worksBackground {
+	border-top: 2px solid #bababa;
+	background-color: #ebebeb;
+	height: 650px;
+	width: 100%;
+	margin: 800px 0 0 0;
+}
+
+div#wrapperFooter {
+	width: 1024px;
+	height: 200px;
+	margin: -10px;
+}
+
+div#footerBackground {
+	background-color: #213f5b;
+	border-top: 2px solid #2c4863;
+	width: 100%;
+	height: 230px;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*       CSS for the Header       */
+/*--------------------------------*/
+
+div#wrapperHeader div#menuContainer {
+	background-color: #fff;
+	width: 1024px;
+	height: 98px;
+	margin: 0 0 0 0px;
+	font-family: "ProximanovaRegular";
+	z-index: 1;
+}
+
+div#menuContainer div#skypePhoneImg {
+	background: url('../imgs/sprites.png') 0 -15px;
+	width: 141px;
+	height: 27px;
+	top: 67px;
+	left: 780px;
+	position: relative;
+}
+
+div#wrapperHeader div#headerGadgetBG {
+	background: url('../imgs/BGCenter1.png');
+	width: 908px;
+	height: 254px;
+	position: absolute;
+	top: 196px;
+	left: 65px;
+}
+
+div#wrapperHeader div#headerCloudsBG {
+	width: 1024px;
+	height: 450px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../imgs/BGCenter2.png');
+	background-size: 100% 100%;
+	display: none;
+}
+
+div#wrapperHeader div#headerManBG {
+	width: 1024px;
+	height: 450px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../imgs/BGCenter3.png');
+	background-size: 100% 100%;
+	display: none;
+}
+
+img#agi1eLogo {
+	width: 126px;
+	height: 102px;
+	margin: 2px 0 0 10px;
+}
+
+div#menuWrapper{
+	height: 25px;
+	width: 700px;
+	margin: 72px 0 0 15px;
+}
+
+div#headerContentSpace {
+	width: 850px;
+	height: 315px;
+	margin: 20px 0 0 0;
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	z-index: 0;
+}
+
+div#headerContentSpace div#content1,
+div#headerContentSpace div#content2,
+div#headerContentSpace div#content3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+	display: none;
+}
+
+div#headerContentSpace div span {
+	text-align: center;
+	margin: 80px 0 0 0;
+}
+
+div#content3 div#contactUsButton {
+	width: 198px;
+	height: 44px;
+	background: url('../imgs/sprites.png') -27px -212px;
+	margin: 15px 0 0 55px;
+	cursor: pointer;
+}
+div#content3 div#contactUsButton:active {
+	margin: 17px 0 0 55px;
+}
+
+div#content2 div#getToKnowButton {
+	width: 198px;
+	height: 44px;
+	background: url('../imgs/sprites.png') -25px -306px;
+	margin: 15px 0 0 55px;
+	cursor: pointer;
+}
+div#content2 div#getToKnowButton:active {
+	margin: 17px 0 0 55px;
+}
+
+div#content1 div#startAProjectButton {
+	width: 199px;
+	height: 45px;
+	background: url('../imgs/sprites.png') -26px -165px;
+	margin: 15px 0 0 55px;
+	cursor: pointer;
+}
+div#content1 div#startAProjectButton:active {
+	margin: 17px 0 0 55px;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Content Selector  */
+/*--------------------------------*/
+
+div#wrapperContentSelector div {
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 0 5px;
+	cursor: pointer;
+}
+
+div#wrapperContentSelector span {
+	width: 455px;
+}
+
+.selectedCircle 	{background-color: #777777;}
+.unselectedCircle 	{background-color: #c2c2c2;}
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  CSS for the Interactive Content Body  */
+/*----------------------------------------*/
+
+div#wrapperInteractiveContent span#title {
+	color: #28ade1;
+	font-size: 34px;
+	font-family: "ProximanovaLight";
+	margin: 25px 0 0 60px;
+}
+
+div#wrapperInteractiveContent div#description {
+	font-family: "ProximanovaRegular";
+	width: 950px;
+	margin: 5px 0 0 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+div#interactiveContainer div#projectCycleContainer {
+	width: 850px;
+	height: 500px;
+	margin: 40px 0 0 -15px;
+}
+
+
+
+
+
+
+
+/*------------------------------------*/
+/*     CSS for the Interactive DIV    */
+/*------------------------------------*/
+
+div#projectCycleContainer div#elementsContainer {
+	width: 850px;
+	height: 500px;
+}
+
+div#projectCycleContainer div#arrowsImg {
+	background: url('../imgs/interactiveContent/arrows.png');
+	background-size: 100% 100%;
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	left: 75px;
+}
+
+div#detailBox {
+	border-radius: 10px;
+	background-color: rgba(231, 231, 232, 0.9);
+	border: 1px solid #ccc;
+	box-shadow: 2px 5px 13px 2px #ccc;
+	width: 540px;
+	height: 300px;
+	position: absolute;
+	top: -50px;
+	left: -120px;
+	display: none;
+}
+
+div#detailBox div#content {
+	font-family: "ProximanovaRegular";
+	font-size: 16px;
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	width: 460px;
+	height: 200px;
+}
+
+div#detailBox div#closeButton {
+	border-radius: 20px;
+	border: 2px solid #ccc;
+	width: 20px;
+	height: 18px;
+	font-family: "ProximanovaSemiBold";
+	font-size: 14px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	text-align: center;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+div#detailBox div#closeButton:hover {
+	background-color: rgba(200, 0, 0, 0.8);
+}
+
+div#storyWritingWorkshop {
+	background: url('../imgs/interactiveContent/elements.png') 0px 0px;
+	width: 133px;
+	height: 97px;
+	position: absolute;
+	left: 40px;
+	top: 25px;
+	cursor: pointer;
+}
+
+div#storyEstimation {
+	background: url('../imgs/interactiveContent/elements.png') -133px 0px;
+	width: 152px;
+	height: 103px;
+	position: absolute;
+	left: 290px;
+	top: 25px;
+	cursor: pointer;
+}
+
+div#prioritizeByValueAndRisk {
+	background: url('../imgs/interactiveContent/elements.png') -286px 0px;
+	width: 154px;
+	height: 111px;
+	position: absolute;
+	left: 600px;
+	top: 55px;
+	cursor: pointer;
+}
+
+div#sprintIteration {
+	background: url('../imgs/interactiveContent/elements.png') -441px 0px;
+	width: 152px;
+	height: 111px;
+	position: absolute;
+	left: 660px;
+	top: 290px;
+	cursor: pointer;
+}
+
+div#sprintPlanningMeeting {
+	background: url('../imgs/interactiveContent/elements.png') 0px -120px;
+	width: 155px;
+	height: 114px;
+	position: absolute;
+	left: 490px;
+	top: 190px;
+	cursor: pointer;
+}
+
+div#sprintRetrospective {
+	background: url('../imgs/interactiveContent/elements.png') -157px -119px;
+	width: 169px;
+	height: 114px;
+	position: absolute;
+	left: 90px;
+	top: 285px;
+	cursor: pointer;
+}
+
+div#sprintReviewMeeting {
+	background: url('../imgs/interactiveContent/elements.png') -326px -119px;
+	width: 172px;
+	height: 117px;
+	position: absolute;
+	left: 290px;
+	top: 360px;
+	cursor: pointer;
+}
+
+div#stories {
+	background: url('../imgs/interactiveContent/elements.png') -515px -131px;
+	width: 75px;
+	height: 94px;
+	position: absolute;
+	left: 205px;
+	top: 35px;
+	cursor: pointer;
+}
+
+div#productBacklog {
+	background: url('../imgs/interactiveContent/elements.png') -9px -243px;
+	width: 136px;
+	height: 222px;
+	position: absolute;
+	left: 336px;
+	top: 135px;
+	cursor: pointer;
+}
+
+div#estimatedStories {
+	background: url('../imgs/interactiveContent/elements.png') -194px -246px;
+	width: 74px;
+	height: 94px;
+	position: absolute;
+	left: 470px;
+	top: 42px;
+	cursor: pointer;
+}
+
+div#sprintBacklog {
+	background: url('../imgs/interactiveContent/elements.png') -178px -365px;
+	width: 110px;
+	height: 109px;
+	position: absolute;
+	left: 710px;
+	top: 170px;
+	cursor: pointer;
+}
+
+div#potentiallyShippable {
+	background: url('../imgs/interactiveContent/elements.png') -309px -379px;
+	width: 190px;
+	height: 119px;
+	position: absolute;
+	left: 475px;
+	top: 370px;
+	cursor: pointer;
+}
+
+div#ideas {
+	background: url('../imgs/interactiveContent/elements.png') -513px -437px;
+	width: 69px;
+	height: 52px;
+	position: absolute;
+	left: 50px;
+	top: 245px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/*----------------------------------*/
+/*  CSS for the About Content Body  */
+/*----------------------------------*/
+
+div#wrapperBodyContent span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 25px;
+	color: #28ade1;
+}
+
+div#wrapperBodyContent div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperBodyContent div#column1Content,
+div#wrapperBodyContent div#column2Content {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 55px 0 0 65px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+/*----------------------------------*/
+/*    CSS for the Services Body     */
+/*----------------------------------*/
+
+div#wrapperServices span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 265px;
+	color: #28ade1;
+}
+
+div#wrapperServices div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 100px;
+	color: #000;
+	text-align: center;
+	width: 780px;
+}
+
+div#wrapperServices div#column1Content {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 55px 0 0 65px;
+	text-align: left;
+}
+
+div#wrapperServices div#column1 div#indentedContent {
+	margin: 0 90px 0 50px;
+	text-align: justify;
+}
+
+div#wrapperServices div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperServices div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#backgroundWrappers div#servicesSpace {
+	height: 800px;	
+}
+
+
+
+
+
+
+
+/*----------------------------------*/
+/*    CSS for the Solutions Body    */
+/*----------------------------------*/
+
+div#wrapperSolutions span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 265px;
+	color: #28ade1;
+}
+
+div#wrapperSolutions div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 100px;
+	color: #000;
+	text-align: center;
+	width: 780px;
+}
+
+div#wrapperSolutions div#column1Content {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 55px 0 0 65px;
+	text-align: left;
+}
+
+div#wrapperSolutions div#column1 div#indentedContent {
+	margin: 0 90px 0 50px;
+	text-align: justify;
+}
+
+div#wrapperSolutions div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperSolutions div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#backgroundWrappers div#solutionsSpace {
+	height: 680px;	
+}
+
+
+
+
+
+
+
+/*----------------------------------*/
+/*  CSS for the Technologies Body   */
+/*----------------------------------*/
+
+div#wrapperTechnologies span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 225px;
+	color: #28ade1;
+}
+
+div#wrapperTechnologies div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 100px;
+	color: #000;
+	text-align: center;
+	width: 780px;
+}
+
+div#wrapperTechnologies div#column1Content {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 55px 0 0 65px;
+	text-align: left;
+}
+
+div#wrapperTechnologies div#column1 div#indentedContent {
+	margin: 0 90px 0 50px;
+	text-align: justify;
+}
+
+div#wrapperTechnologies div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperTechnologies div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#backgroundWrappers div#technologiesSpace {
+	height: 850px;	
+}
+
+
+
+
+
+
+
+/*-----------------------------*/
+/*  CSS for the ContactUsBody  */
+/*-----------------------------*/
+
+.error {
+	border: 2px solid red;	
+}
+
+div#backgroundWrappers div#contactUsSpace {
+	height: 1100px;	
+}
+
+div#wrapperContactUsContent span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 60px;
+	color: #28ade1;
+}
+
+div#wrapperContactUsContent div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperContactUsContent div#column1Form {
+	margin: 50px 0 0 80px;
+	font-family: "ProximanovaRegular";
+	font-size: 16px;
+}
+div#wrapperContactUsContent div#column2 {
+	margin: 70px 10px 0 65px;
+	font-family: "ProximanovaRegular";
+	font-size: 16px;
+}
+div#wrapperContactUsContent div#column3 {
+	margin: 70px 10px 0 30px;
+	font-family: "ProximanovaRegular";
+	font-size: 16px;
+}
+
+div#wrapperContactUsContent div#column1Form input[type=text],
+div#wrapperContactUsContent div#column1Form textarea {
+	width: 300px;
+	height: 28px;
+	font-size: 18px;
+	font-family: "ProximanovaRegular";
+	position: absolute;
+	resize: none;
+}
+
+div#wrapperContactUsContent input[type=checkbox] {
+	width: 20px;
+	margin: 5px 0 0 0;
+}
+
+div#wrapperContactUsContent a {
+	text-decoration: none;
+	color: #84c9eb;
+}
+div#wrapperContactUsContent a:hover {
+	text-decoration: underline;
+	color: #84c9eb;
+}
+
+div#column1Form div#sendMailButton {
+	background: url('../imgs/sprites.png') -25px -260px;
+	width: 201px;
+	height: 46px;
+	cursor: pointer;
+}
+div#column1Form div#sendMailButton:active {
+	background: url('../imgs/sprites.png') -25px -258px;
+}
+
+div#column3 div#inquiriesImg {
+	background: url('../imgs/sprites.png') -7px -417px;
+	width: 165px;
+	height: 29px;
+}
+div#column3 div#newYorkImg {
+	background: url('../imgs/sprites.png') -137px -356px;
+	width: 127px;
+	height: 28px;
+}
+div#column3 div#chicagoImg {
+	background: url('../imgs/sprites.png') -8px -388px;
+	width: 127px;
+	height: 28px;
+}
+div#column3 div#californiaImg {
+	background: url('../imgs/sprites.png') -8px -358px;
+	width: 127px;
+	height: 28px;
+}
+
+
+
+
+
+
+
+/*-----------------------------*/
+/*     CSS for the CAPTCHA     */
+/*-----------------------------*/
+
+div#wrapperContactUsContent div#wrap{
+	border: 1px solid #ccc;
+	width:243px;
+	float:left;
+	padding:3px;
+	position: absolute;
+	left: 90px;
+	top: 810px;
+	font-family: "ProximanovaSemiBold";
+}
+
+input#code {
+	position: absolute;
+	left: 25px;
+}
+
+img#refresh{
+	position: relative;
+	left: 70px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------*/
+/*  CSS for the Quality Assurance Body  */
+/*--------------------------------------*/
+
+div#backgroundWrappers div#qualityAssuranceSpace {
+	height: 1700px;	
+}
+
+div#wrapperQualityAssurance span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 10px;
+	color: #28ade1;
+}
+
+div#wrapperQualityAssurance div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperQualityAssurance div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperQualityAssurance div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperQualityAssurance div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 70px;
+}
+
+div#wrapperQualityAssurance div#column2 div#indentedContent {
+	margin: 0 0 0 30px;
+}
+
+div#wrapperQualityAssurance div#quoteBox {
+	background-color: #ececec;
+	height: 160px;
+	width: 400px;
+	padding: 30px 10px 0 20px;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------*/
+/*  CSS for the Software Quality Management  */
+/*-------------------------------------------*/
+
+div#backgroundWrappers div#softwareQualitySpace {
+	height: 1800px;	
+}
+
+div#wrapperSoftwareQuality span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 10px;
+	color: #28ade1;
+}
+
+div#wrapperSoftwareQuality div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperSoftwareQuality div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperSoftwareQuality div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperSoftwareQuality div#quoteBox {
+	background-color: #ececec;
+	height: 140px;
+	width: 400px;
+	padding: 30px 10px 0 20px;
+}
+
+div#wrapperSoftwareQuality div#column1 div#indentedContent,
+div#wrapperSoftwareQuality div#column2 div#indentedContent {
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  CSS for the Software Quality Metrics  */
+/*----------------------------------------*/
+
+div#backgroundWrappers div#qualityMetricsSpace {
+	height: 1700px;	
+}
+
+div#wrapperQualityMetrics span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 50px;
+	color: #28ade1;
+}
+
+div#wrapperQualityMetrics div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperQualityMetrics div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperQualityMetrics div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperQualityMetrics div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperQualityMetrics div#quoteBox {
+	background-color: #ececec;
+	height: 95px;
+	width: 390px;
+	padding: 30px 10px 0 20px;
+}
+
+div#wrapperQualityMetrics div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*----------------------------------------------*/
+/*  CSS for the Technology Consulting Services  */
+/*----------------------------------------------*/
+div#backgroundWrappers div#TCSSpace {
+	height: 1650px;	
+}
+
+div#wrapperTCS span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 43px;
+	color: #28ade1;
+}
+
+div#wrapperTCS div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperTCS div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperTCS div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperTCS div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperTCS div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+/*  CSS for the Global Software Development Services */
+/*---------------------------------------------------*/
+
+div#backgroundWrappers div#GSDSSpace {
+	height: 1770px;	
+}
+
+div#wrapperGSDS span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 20px;
+	color: #28ade1;
+}
+
+div#wrapperGSDS div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperGSDS div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperGSDS div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperGSDS div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperGSDS div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+div#wrapperGSDS div#quoteBox {
+	background-color: #ececec;
+	height: 110px;
+	width: 400px;
+	padding: 30px 10px 0 20px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
+/*  CSS for the Global Software Testing Services */
+/*-----------------------------------------------*/
+
+div#backgroundWrappers div#testingServicesSpace {
+	height: 1630px;	
+}
+
+div#wrapperTestingServices span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 70px;
+	color: #28ade1;
+}
+
+div#wrapperTestingServices div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperTestingServices div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperTestingServices div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperTestingServices div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperTestingServices div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------*/
+/*  CSS for the Java Application Development */
+/*-------------------------------------------*/
+
+div#backgroundWrappers div#javaSpace {
+	height: 1200px;	
+}
+
+div#wrapperJava span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 70px;
+	color: #28ade1;
+}
+
+div#wrapperJava div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperJava div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperJava div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperJava div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------*/
+/*  CSS for the .Net Application Development */
+/*-------------------------------------------*/
+
+div#backgroundWrappers div#dotNetSpace {
+	height: 1330px;	
+}
+
+div#wrapperDotNet span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 100px;
+	color: #28ade1;
+}
+
+div#wrapperDotNet div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperDotNet div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperDotNet div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperDotNet div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperDotNet div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------------------*/
+/*  CSS for the PHP Application Development */
+/*------------------------------------------*/
+
+div#backgroundWrappers div#phpSpace {
+	height: 1300px;	
+}
+
+div#wrapperPhp span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 100px;
+	color: #28ade1;
+}
+
+div#wrapperPhp div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperPhp div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperPhp div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperPhp div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperPhp div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------------------*/
+/*  CSS for the iOS Application Development */
+/*------------------------------------------*/
+
+div#backgroundWrappers div#iosSpace {
+	height: 1330px;	
+}
+
+div#wrapperIOS span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 100px;
+	color: #28ade1;
+}
+
+div#wrapperIOS div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperIOS div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperIOS div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperIOS div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperIOS div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*----------------------------------------------*/
+/*  CSS for the Android Application Development */
+/*----------------------------------------------*/
+
+div#backgroundWrappers div#androidSpace {
+	height: 1400px;	
+}
+
+div#wrapperAndroid span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 100px;
+	color: #28ade1;
+}
+
+div#wrapperAndroid div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperAndroid div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperAndroid div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperAndroid div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperAndroid div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------------*/
+/*  CSS for the Compatibility Testing */
+/*------------------------------------*/
+
+div#backgroundWrappers div#compatibilitySpace {
+	height: 1870px;	
+}
+
+div#wrapperCompatibility span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 170px;
+	color: #28ade1;
+}
+
+div#wrapperCompatibility div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperCompatibility div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperCompatibility div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperCompatibility div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperCompatibility div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------------*/
+/*  CSS for the Compatibility Testing */
+/*------------------------------------*/
+
+div#backgroundWrappers div#mobileAppSpace {
+	height: 1770px;	
+}
+
+div#wrapperMobileApp span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 130px;
+	color: #28ade1;
+}
+
+div#wrapperMobileApp div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperMobileApp div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperMobileApp div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperMobileApp div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperMobileApp div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Business Analysis */
+/*--------------------------------*/
+
+div#backgroundWrappers div#businessAnalysisSpace {
+	height: 1100px;	
+}
+
+div#wrapperBusinessAnalysis span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 100px;
+	color: #28ade1;
+}
+
+div#wrapperBusinessAnalysis div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperBusinessAnalysis div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperBusinessAnalysis div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperBusinessAnalysis div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+
+
+
+
+
+
+/*-----------------------------*/
+/*  CSS for the Agile Process  */
+/*-----------------------------*/
+
+div#backgroundWrappers div#agileProcessSpace {
+	height: 1850px;	
+}
+
+div#wrapperAgileProcess span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 43px;
+	color: #28ade1;
+}
+
+div#wrapperAgileProcess div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperAgileProcess div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperAgileProcess div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperAgileProcess div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperAgileProcess div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Business Analysis */
+/*--------------------------------*/
+
+div#backgroundWrappers div#businessAnalysisSpace {
+	height: 1100px;	
+}
+
+div#wrapperBusinessAnalysis span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 30px 0 0 100px;
+	color: #28ade1;
+}
+
+div#wrapperBusinessAnalysis div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperBusinessAnalysis div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperBusinessAnalysis div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperBusinessAnalysis div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Project Planning  */
+/*--------------------------------*/
+
+div#backgroundWrappers div#projectPlanningSpace {
+	height: 1200px;	
+}
+
+div#wrapperProjectPlanning span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 110px;
+	color: #28ade1;
+}
+
+div#wrapperProjectPlanning div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperProjectPlanning div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperProjectPlanning div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperProjectPlanning div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperProjectPlanning div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Project Planning  */
+/*--------------------------------*/
+
+div#backgroundWrappers div#designSpace {
+	height: 950px;	
+}
+
+div#wrapperDesign span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 185px;
+	color: #28ade1;
+}
+
+div#wrapperDesign div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperDesign div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperDesign div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperDesign div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperDesign div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*---------------------------*/
+/*  CSS for the Development  */
+/*---------------------------*/
+
+div#backgroundWrappers div#developmentSpace {
+	height: 1050px;	
+}
+
+div#wrapperDevelopment span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 130px;
+	color: #28ade1;
+}
+
+div#wrapperDevelopment div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperDevelopment div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperDevelopment div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperDevelopment div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperDevelopment div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------*/
+/*  CSS for the Testing and QA  */
+/*------------------------------*/
+
+div#backgroundWrappers div#testingAndQASpace {
+	height: 800px;	
+}
+
+div#wrapperTestingAndQA span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 130px;
+	color: #28ade1;
+}
+
+div#wrapperTestingAndQA div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperTestingAndQA div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperTestingAndQA div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperTestingAndQA div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperTestingAndQA div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*---------------------------------------*/
+/*  CSS for the Support and Maintenance  */
+/*---------------------------------------*/
+
+div#backgroundWrappers div#supportSpace {
+	height: 870px;	
+}
+
+div#wrapperSupport span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 60px;
+	color: #28ade1;
+}
+
+div#wrapperSupport div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperSupport div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperSupport div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+	width: 900px;
+	text-align: justify;
+}
+
+div#wrapperSupport div#indentedContent{
+	margin: 0 30px 0 30px;
+}
+
+
+
+
+
+
+
+/*-----------------------------*/
+/*  CSS for the Dev Planning   */
+/*-----------------------------*/
+
+div#backgroundWrappers div#devPlanningSpace {
+	height: 1870px;	
+}
+
+div#wrapperDevPlanning span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 70px;
+	color: #28ade1;
+}
+
+div#wrapperDevPlanning div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperDevPlanning div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperDevPlanning div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperDevPlanning div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperDevPlanning div#indentedContent{
+	margin: 0 30px 0 30px;
+}
+
+div#wrapperDevPlanning div#quoteBox {
+	background-color: #ececec;
+
+	width: 350px;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Testing Planning  */
+/*--------------------------------*/
+
+div#backgroundWrappers div#testPlanningSpace {
+	height: 1770px;	
+}
+
+div#wrapperTestPlanning span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 110px;
+	color: #28ade1;
+}
+
+div#wrapperTestPlanning div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperTestPlanning div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperTestPlanning div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperTestPlanning div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperTestPlanning div#indentedContent{
+	margin: 0 30px 0 30px;
+}
+
+div#wrapperTestPlanning div#quoteBox {
+	background-color: #ececec;
+	width: 350px;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+/*-----------------------------------*/
+/*  CSS for the Mobile Technologies  */
+/*-----------------------------------*/
+
+div#backgroundWrappers div#mobileTechnologiesSpace {
+	height: 570px;	
+}
+
+div#wrapperMobileTechnologies span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 160px;
+	color: #28ade1;
+}
+
+div#wrapperMobileTechnologies div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperMobileTechnologies div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 190px;
+}
+
+
+
+
+
+
+
+/*------------------------------------------*/
+/*  CSS for the Web and Cloud Technologies  */
+/*------------------------------------------*/
+
+div#backgroundWrappers div#webAndCloudSpace {
+	height: 870px;	
+}
+
+div#wrapperWebAndCloud span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 190px;
+	color: #28ade1;
+}
+
+div#wrapperWebAndCloud div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperWebAndCloud div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 120px;
+}
+
+
+
+
+
+
+
+/*-------------------------------*/
+/*  CSS for the PC Technologies  */
+/*-------------------------------*/
+
+div#backgroundWrappers div#pcTechnologiesSpace {
+	height: 570px;	
+}
+
+div#wrapperPCTechnologies span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 190px;
+	color: #28ade1;
+}
+
+div#wrapperPCTechnologies div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperPCTechnologies div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 190px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------*/
+/*  CSS for the Server Technologies  */
+/*-----------------------------------*/
+
+div#backgroundWrappers div#serverTechnologiesSpace {
+	height: 570px;	
+}
+
+div#wrapperServerTechnologies span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 160px;
+	color: #28ade1;
+}
+
+div#wrapperServerTechnologies div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperServerTechnologies div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 190px;
+}
+
+
+
+
+
+
+
+/*-----------------------------*/
+/*  CSS for the Agile Process  */
+/*-----------------------------*/
+
+div#backgroundWrappers div#agileProcessSpace {
+	height: 1850px;	
+}
+
+div#wrapperAgileProcess span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 43px;
+	color: #28ade1;
+}
+
+div#wrapperAgileProcess div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperAgileProcess div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperAgileProcess div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperAgileProcess div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperAgileProcess div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/*  CSS for the Offshore Software Testing  */
+/*-----------------------------------------*/
+
+div#backgroundWrappers div#offshoreSoftwareSpace {
+	height: 1700px;	
+}
+
+div#wrapperOffshoreSoftware span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 40px;
+	color: #28ade1;
+}
+
+div#wrapperOffshoreSoftware div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperOffshoreSoftware div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperOffshoreSoftware div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+div#wrapperOffshoreSoftware div#column2 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 80px;
+}
+
+div#wrapperOffshoreSoftware div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/*  CSS for the Wrapper Java Software Dev  */
+/*-----------------------------------------*/
+
+div#backgroundWrappers div#javaSoftwareDevSpace {
+	height: 1700px;	
+}
+
+div#wrapperJavaSoftwareDev span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 40px;
+	color: #28ade1;
+}
+
+div#wrapperJavaSoftwareDev div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperJavaSoftwareDev div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperJavaSoftwareDev div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#wrapperJavaSoftwareDev div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+/*--------------------------------------*/
+/*  CSS for the Wrapper Junior Web Dev  */
+/*--------------------------------------*/
+
+div#backgroundWrappers div#juniorWebDevSpace {
+	height: 1000px;	
+}
+
+div#wrapperJuniorWebDev span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 -10px;
+	color: #28ade1;
+}
+
+div#wrapperJuniorWebDev div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperJuniorWebDev div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperJuniorWebDev div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#wrapperJuniorWebDev div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+/*--------------------------------*/
+/*  CSS for the Wrapper  Web Dev  */
+/*--------------------------------*/
+
+div#backgroundWrappers div#WebDevSpace {
+	height: 1200px;	
+}
+
+div#wrapperWebDev span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 25px;
+	color: #28ade1;
+}
+
+div#wrapperWebDev div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperWebDev div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperWebDev div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#wrapperWebDev div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------*/
+/*  CSS for the Offshore Software Dev Outsourcing  */
+/*-------------------------------------------------*/
+
+div#backgroundWrappers div#offshoreSoftwareDevOutSpace {
+	height: 1700px;	
+}
+
+div#wrapperOffshoreSoftwareDevOut span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 155px;
+	color: #28ade1;
+}
+
+div#wrapperOffshoreSoftwareDevOut div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0px;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperOffshoreSoftwareDevOut div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperOffshoreSoftwareDevOut div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+/*  CSS for the Lessons Learned in Software Testing  */
+/*---------------------------------------------------*/
+
+div#backgroundWrappers div#lessonsLearnedSpace {
+	height: 1600px;	
+}
+
+div#wrapperLessonsLearned span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 225px;
+	color: #28ade1;
+}
+
+div#wrapperLessonsLearned div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0px;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperLessonsLearned div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperLessonsLearned div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#wrapperLessonsLearned div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------*/
+/*  CSS for the Offshore Software Development Companies */
+/*------------------------------------------------------*/
+
+div#backgroundWrappers div#offshoreSoftwareDevComSpace {
+	height: 1600px;	
+}
+
+div#wrapperOffshoreSoftwareDevCom span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 175px;
+	color: #28ade1;
+}
+
+div#wrapperOffshoreSoftwareDevCom div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 0px;
+	color: #000;
+	text-align: center;
+}
+
+div#wrapperOffshoreSoftwareDevCom div#footerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 0 10px;
+}
+
+div#wrapperOffshoreSoftwareDevCom div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#wrapperOffshoreSoftwareDevCom div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*------------------------------------*/
+/*    CSS for the Start a Project     */
+/*------------------------------------*/
+
+div#backgroundWrappers div#startAProjectSpace {
+	height: 600px;	
+}
+
+div#wrapperStartAProject span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 20px;
+	color: #28ade1;
+}
+
+div#wrapperStartAProject div#img {
+	margin: 0 0 0 -20px;
+}
+
+div#wrapperStartAProject div#headerContent {
+	font-family: "ProximanovaRegular";
+	font-size: 20px;
+	margin: 25px 0 0 100px;
+	color: #000;
+	text-align: center;
+	width: 780px;
+}
+
+div#wrapperStartAProject div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------*/
+/*  CSS for the Works Body  */
+/*--------------------------*/
+
+div#wrapperWorksContent span#title {
+	color: #28ade1;
+	font-size: 34px;
+	font-family: "ProximanovaLight";
+	margin: 30px 0 0 8px;
+}
+
+div#wrapperWorksContent div#description {
+	font-family: "ProximanovaRegular";
+	width: 950px;
+	margin: 8px 0 0 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+div#wrapperWorksContent div#worksImgContainer {
+	width: 810px;
+	height: 350px;
+	margin: 70px 0 0 25px;
+	overflow: hidden;
+}
+
+div#wrapperWorksContent div#backButton {
+	background: url('../imgs/sprites.png') -144px 0px;
+	width: 39px;
+	height: 60px;
+	margin: 200px 0 0 45px;
+	cursor: pointer;
+}
+div#wrapperWorksContent div#backButton:active {
+	margin: 202px 0 0 45px;
+}
+
+div#wrapperWorksContent div#nextButton {
+	background: url('../imgs/sprites.png') -184px 0px;
+	width: 39px;
+	height: 60px;
+	margin: 200px 0 0 20px;
+	cursor: pointer;
+}
+div#wrapperWorksContent div#nextButton:active {
+	margin: 202px 0 0 20px;
+}
+
+div#worksImgContainer div#img1 {background: url('../imgs/worksImgs.jpg') 0px 0px; left: 10px;}
+div#worksImgContainer div#img2 {background: url('../imgs/worksImgs.jpg') -385px 0px; left: 415px;}
+div#worksImgContainer div#img3 {background: url('../imgs/worksImgs.jpg') -770px 0px; left: 820px;}
+div#worksImgContainer div#img4 {background: url('../imgs/worksImgs.jpg') -1155px 0px; left: 1225px;}
+div#worksImgContainer div#img5 {background: url('../imgs/worksImgs.jpg') -1540px 0px; left: 1630px;}
+div#worksImgContainer div#img6 {background: url('../imgs/worksImgs.jpg') -1925px 0px; left: 2035px;}
+div#worksImgContainer div#img7 {background: url('../imgs/worksImgs.jpg') -2310px 0px; left: 2440px;}
+
+div#worksImgContainer div {
+	width: 385px;
+	height: 260px;
+	margin: 35px 0 0 0;
+	position: absolute;
+}
+
+
+
+
+
+
+
+/*----------------------------------*/
+/*  CSS for the Privacy and Policy  */
+/*----------------------------------*/
+
+div#backgroundWrappers div#privacyPolicySpace {
+	height: 1100px;	
+}
+
+div#wrapperPrivacy span#title {
+	font-family: "ProximanovaLight";
+	font-size: 36px;
+	margin: 50px 0 0 20px;
+	color: #28ade1;
+}
+
+div#wrapperPrivacy div#column1 {
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	margin: 40px 0 0 50px;
+}
+
+div#wrapperPrivacy div#indentedContent{
+	margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+/*---------------------------*/
+/*  CSS for the Footer Body  */
+/*---------------------------*/
+
+div#wrapperFooter a:active, div#wrapperFooter a:focus,
+div#wrapperFooter a {
+	text-decoration: none;
+	color: #a9b0b9;	
+}
+div#wrapperFooter a:hover {
+	color: #fff;
+}
+
+div#wrapperFooter div#careersLinks {
+	margin: 40px 0 0 65px;
+	width: 280px;
+	height: 100px;
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	color: #fff;
+}
+
+div#wrapperFooter div#downloadLinks {
+	margin: 0px 0 0 65px;
+	width: 600px;
+	height: 80px;
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	color: #fff;
+}
+
+div#downloadLinks div#pdfIcon {
+	background: url('../imgs/sprites.png') -236px -14px;
+	width: 31px;
+	height: 34px;
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+div#wrapperFooter div#hotTopicsLinks {
+	margin: 40px 0 0 50px;
+	width: 340px;
+	height: 100px;
+	font-family: "ProximanovaRegular";
+	font-size: 14px;
+	color: #fff;
+}
+
+div#wrapperFooter div#socialNetworkLinks {
+	margin: 40px 0 0 25px;
+	width: 260px;
+	height: 100px;
+	font-family: "ProximanovaRegular";
+	font-size: 11px;
+	color: #fff;
+}
+
+div#socialNetworkLinks div 		 				{margin: 3px; float: left;}
+div#socialNetworkLinks div#facebookLink		 	{width: 28px; height: 42px; background: url('../imgs/sprites.png') -158px -68px; cursor: pointer; }
+div#socialNetworkLinks div#facebookLink:hover 	{background: url('../imgs/sprites.png') -158px -116px; }
+div#socialNetworkLinks div#twitterLink 			{width: 44px; height: 39px; background: url('../imgs/sprites.png') -107px -70px; cursor: pointer;}
+div#socialNetworkLinks div#twitterLink:hover 	{background: url('../imgs/sprites.png') -107px -119px; }
+div#socialNetworkLinks div#inLink 				{width: 41px; height: 38px; background: url('../imgs/sprites.png') -59px -71px; cursor: pointer; }
+div#socialNetworkLinks div#inLink:hover 		{background: url('../imgs/sprites.png') -59px -119px; }
+div#socialNetworkLinks div#skypeLink 			{width: 47px; height: 43px; background: url('../imgs/sprites.png') -5px -69px; cursor: pointer; }
+div#socialNetworkLinks div#skypeLink:hover 		{background: url('../imgs/sprites.png') -4px -117px; }
+div#socialNetworkLinks div#youtubeLink 			{width: 44px; height: 46px; background: url('../imgs/sprites.png') -195px -67px; cursor: pointer; }
+div#socialNetworkLinks div#youtubeLink:hover 	{background: url('../imgs/sprites.png') -195px -115px; }
